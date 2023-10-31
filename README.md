@@ -2,13 +2,13 @@
 A C-program written to simulate the performance of the Round Robin scheduling algorithm, and compares the results to that of an ideal scenario of a perfect scheduler.
 ## Approach:
 
-Program Design and Implementation
+### Program Design and Implementation
 We designed and implemented a simulation program using the C/C++ programming language. The program is organized into modular components to ensure maintainability and readability. It includes data structures to represent processes, the scheduler, and other essential components.
-Process Generation
+### Process Generation
 We utilized a random number generator to generate random arrival times and CPU burst times for a set of processes (for simplicity, the process count has been limited to 5 processes). These generated values are used to simulate the behavior of processes in a real-world scenario.
-Round Robin Scheduling Algorithm
+### Round Robin Scheduling Algorithm
 The core of the simulation program is the Round Robin scheduling algorithm. We implemented this algorithm, which maintains a queue of processes and a time quantum. The algorithm selects the next process from the queue and executes it for the specified time quantum.
-Simulation Loop
+### Simulation Loop
 The program runs within a simulation loop until a predefined time limit is reached. During each iteration of the loop, the state of processes, the scheduler, and the simulation time are updated.
 
 ## Pseudocode:
