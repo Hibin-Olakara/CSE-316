@@ -1,6 +1,6 @@
 # CSE-316
 A C-program written to simulate the performance of the Round Robin scheduling algorithm, and compares the results to that of an ideal scenario of a perfect scheduler.
-##Approach:
+## Approach:
 
 Program Design and Implementation
 We designed and implemented a simulation program using the C/C++ programming language. The program is organized into modular components to ensure maintainability and readability. It includes data structures to represent processes, the scheduler, and other essential components.
@@ -11,7 +11,7 @@ The core of the simulation program is the Round Robin scheduling algorithm. We i
 Simulation Loop
 The program runs within a simulation loop until a predefined time limit is reached. During each iteration of the loop, the state of processes, the scheduler, and the simulation time are updated.
 
-##Pseudocode:
+## Pseudocode:
 
 Step 1: Set parameters and seed random number generator
     - num_processes = 10
